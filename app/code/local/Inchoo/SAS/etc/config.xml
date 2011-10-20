@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<modules>
+		<Inchoo_SAS>
+			<version>0.1.0</version>
+		</Inchoo_SAS>
+	</modules>
+
+	<global>
+		<models>
+			<sas>
+				<class>Inchoo_SAS_Model</class>
+			</sas>
+
+			<catalog>
+				<rewrite>
+					<layer_filter_attribute>Inchoo_SAS_Model_Catalog_Layer_Filter_Attribute</layer_filter_attribute>
+				</rewrite>
+			</catalog>
+		</models>
+	</global>
+
+	<default>
+		<sas>
+			<layersorting>
+				<prefix>layer</prefix>
+			</layersorting>
+		</sas>
+	</default>
+</config>
